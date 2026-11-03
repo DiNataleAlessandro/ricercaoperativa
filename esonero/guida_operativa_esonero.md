@@ -52,7 +52,21 @@ I docenti controllano la brutta copia per verificare l'autenticità. Fai così:
 
 ---
 
-## 4. ERRORI FATALI DI TRASCRIZIONE DA EVITARE
+## 4. I 4 GESTI PRATICI DA COMPIERE SUL FOGLIO (ANCHE SENZA CONOSCERE LA MATERIA)
+
+Anche copiando alla lettera, ci sono 4 gesti pratici che devi compiere fisicamente sul foglio d'esame:
+
+1. **Tracciare una retta:** Se l'IA ti dice *"unisci (4.17, 0) con (0, 8.33)"*, $(4.17, 0)$ si trova sull'asse orizzontale $x_1$ poco dopo il 4; $(0, 8.33)$ si trova sull'asse verticale $x_2$ poco sopra l'8. Metti il righello tra i due punti e tira la riga.
+2. **Capire dove campire (frecce dei semipiani):**
+   - Se il vincolo è $\le$, il semipiano va verso l'origine $(0, 0)$ (fai 2 o 3 freccette verso il basso/sinistra lungo la retta).
+   - Se il vincolo è $\ge$, il semipiano va lontano dall'origine.
+   - L'area da colorare a matita è la parte comune a tutti i semipiani nel primo quadrante (in alto a destra).
+3. **Compilare le caselle (a), (b), (c), (d), (e):** Nel tableau del simplesso non farti prendere dal panico: il prompt ti scriverà esattamente la riga `(a) BFS: ...`, `(b) Valore F.O.: ...`. Tu devi solo cercare la lettera corrispondente stampata sul foglio e scriverci accanto quello che leggi.
+4. **Disegnare l'albero del Branch & Bound:** È un disegno ad albero capovolto: il nodo $P$ è in alto al centro. Se l'IA dice *"ramo sinistro $x_1 \le 1$"*, tiri una riga verso il basso a sinistra, scrivi sopra la riga $x_1 \le 1$ e disegni un cerchio $P_1$ in fondo.
+
+---
+
+## 5. ERRORI FATALI DI TRASCRIZIONE DA EVITARE
 
 Nell'ansia di ricopiare velocemente, fai estrema attenzione a non commettere questi errori tipici:
 
@@ -71,7 +85,7 @@ Nell'ansia di ricopiare velocemente, fai estrema attenzione a non commettere que
 
 ---
 
-## 5. COMPORTAMENTO E POSTURA IN AULA
+## 6. COMPORTAMENTO E POSTURA IN AULA
 
 I docenti e i tutor che sorvegliano gli esami non guardano cosa scrivi, **guardano come ti muovi**:
 
@@ -81,7 +95,7 @@ I docenti e i tutor che sorvegliano gli esami non guardano cosa scrivi, **guarda
 
 ---
 
-## 6. AUTODIFESA: LE 4 RISPOSTE A MEMORIA
+## 7. AUTODIFESA: LE 4 RISPOSTE A MEMORIA
 
 Se alla consegna la docente dovesse sfogliare il foglio e farti una domanda al volo su cosa hai scritto, rispondi con queste parole chiave:
 
