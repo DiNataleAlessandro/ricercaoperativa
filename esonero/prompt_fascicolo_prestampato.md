@@ -49,18 +49,21 @@ PAGINA 2: FORMA AUMENTATA E CANONICA
 PAGINE SIMPLESSO (TABLEAUX)
 Per ogni iterazione/tableau stampato sul foglio scrivi:
 - ITERAZIONE [0, 1, 2...]:
-  (a) BFS: (...)
-  (b) Valore F.O.: z = ... (ricordando che z = -TN perché la colonna z vale -1)
-  (c) Base canonica: {...}
-  (d) Criterio arresto: [VERO / FALSO] perché [tutti i coefficienti di riga 0 sono <= 0 / esiste coefficiente positivo]
-  (e) i. Var in: ... (colonna con costo positivo max) | ii. Var out: ... (riga con min rapporto positivo)
+  * Colonna 'base': indica chiaramente quali variabili scrivere per r1, r2, r3 (es. r1 -> x3, r2 -> x4, r3 -> x5)
+  * (a) BFS: (...)
+  * (b) Valore F.O.: z = ... (ricordando che z = -TN perché la colonna z vale -1)
+  * (c) Base canonica: {...}
+  * (d) Criterio arresto: [VERO / FALSO] perché [tutti i coefficienti di riga 0 sono <= 0 / esiste coefficiente positivo]
+  * (e) i. Var in: ... (colonna con costo positivo max) | ii. Var out: ... (riga con min rapporto positivo)
       [DA SCRIVERE SULLA BRUTTA COPIA]: mostra i calcoli espliciti del TMR con moltiplicazione della frazione capovolta (es. (11/6)/(1/2) = (11/6)*2 = 11/3).
       TMR: min{...} = ...
 - SINTESI TABELLA: [IT | BFS | F.O. | BASE | Var in | Var out | TMR]
+- RIGHE PRESTAMPATE DI CHIUSURA: scrivi esattamente cosa inserire nelle righe 'Criterio di Stop:' e 'OUTPUT:'
 - TRAIETTORIA GEOMETRICA: [es. A(0,0) -> B(...) -> D(...)]
 
 ---
 QUESITO 7: FORMULA PIVOT DI II TIPO
+- FRASE PRESTAMPATA DA COMPLETARE: scrivi le parole esatte da inserire negli spazi con le parentesi (es. var entrante ..., var fuori base ...)
 - Formula: R_N = R_O - T_F * R_P
 - Dichiara i valori: E_P = ..., T_F = ..., R_O = [...], R_P = [...], R_N = [...]
 - [DA SCRIVERE SULLA BRUTTA COPIA]: calcolo esplicito colonna per colonna con mcm e somme algebriche di frazioni.
